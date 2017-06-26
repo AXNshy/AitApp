@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.Util.UI.SwipeBackLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/swipelayout"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.14"
+        android:elevation="4dp"
+        android:src="@mipmap/maxresdefault" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.23"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_mail_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的邮箱:   " />
+
+        <TextView
+            android:id="@+id/tv_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_mail_des"
+            android:text="axnshy@gmail.com" />
+
+        <TextView
+            android:id="@+id/tv_github_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_mail_des"
+            android:layout_marginTop="20dp"
+            android:text="我的Github:   " />
+
+        <TextView
+            android:id="@+id/tv_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_github_desc"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_mail_des"
+            android:text="https://github.com/AXNshy" />
+
+        <TextView
+            android:id="@+id/tv_notice_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:text="手指右滑返回"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</com.github.Util.UI.SwipeBackLayout>

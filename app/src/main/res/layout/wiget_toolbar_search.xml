@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llyt_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    android:gravity="center">
+    <LinearLayout
+        android:id="@+id/llyt_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#77ffffff"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icons8_search_50" />
+
+        <EditText
+            android:id="@+id/et_key_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入Repository或User"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white_66"
+            android:textCursorDrawable="@null"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_search_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icons_forward_50"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

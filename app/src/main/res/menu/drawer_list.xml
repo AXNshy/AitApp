@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/i1"
+        android:icon="@mipmap/icons8_githubfilled_50"
+        android:title="github"/>
+    <item android:id="@+id/file_fastsend"
+        android:icon="@mipmap/icons8_data_transfer_50"
+        android:title="文件快传"/>
+
+    <item android:id="@+id/about"
+        android:icon="@mipmap/icons8_info_50"
+        android:title="关于"/>
+    <item android:id="@+id/exit"
+        android:icon="@mipmap/icons8_exit_left_50"
+        android:title="退出"/>
+
+</menu>

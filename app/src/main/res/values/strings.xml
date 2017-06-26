@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AitApp</string>
+    <string name="tag_key_url">tag_key_url</string>
+    <string name="file_intersend_process">file_intersend</string>
+</resources>
